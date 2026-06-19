@@ -11,6 +11,7 @@ const AuthRoutes = require("./routes/AuthRoutes");
 const UserRoutes = require("./routes/UserRoutes");
 const AdminRoutes = require("./routes/AdminRoute");
 const KYCRoutes = require("./routes/KYCRoutes");
+const LocationRoutes = require("./routes/LocationRoutes");
 
 
 
@@ -93,6 +94,7 @@ app.use("/auth", AuthRoutes);
 app.use("/user", UserRoutes);
 app.use("/admin", AdminRoutes);
 app.use("/kyc", KYCRoutes);
+app.use("/location", LocationRoutes);
 
 // ======================================================
 //        🏠 HOME
@@ -106,5 +108,6 @@ app.get("/", (req, res) => {
 // ======================================================
 const PORT = process.env.PORT || 5051;
 app.listen(PORT, () => {
-  console.log(`🌍 Server running on port ${PORT}`);
+  console.log(`🚀 Server is running on port ${PORT}`);
 });
+// Restart

@@ -16,6 +16,7 @@
     "dotenv": "^16.6.1",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
+    "geodata-utils": "^1.0.10",
     "imagekit": "^6.0.0",
     "jsonwebtoken": "^9.0.2",
     "moment": "^2.30.1",
